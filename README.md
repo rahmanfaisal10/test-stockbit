@@ -4,8 +4,8 @@
 
 ### Answer Number One 
 
-    Jawaban dari pertanyaan no 1 anda bisa dapatkan di dalam folder number_one dengan penamaan file *query_answer.sql*
-    atau anda bisa lihat query nya seperti dibawah ini
+Jawaban dari pertanyaan no 1 anda bisa dapatkan di dalam folder number_one dengan penamaan file *query_answer.sql*
+atau anda bisa lihat query nya seperti dibawah ini
     
     ```bash
     SELECT 
