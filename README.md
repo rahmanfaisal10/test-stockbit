@@ -25,7 +25,6 @@ Jawaban dari pertanyaan no 3 anda bisa dapatkan di folder:
 
 atau anda juga bisa lihat methodnya seperti dibawah ini:
 
-    ```bash
     func FindFirstStringInBracket(str string) string {
         indexFirstBracketFound := strings.Index(str, "(")
         if indexFirstBracketFound >= 0 {
@@ -42,4 +41,3 @@ atau anda juga bisa lihat methodnya seperti dibawah ini:
 
         return ""
     }
-    ```
