@@ -5,8 +5,9 @@
 ### Answer Number One 
 
 Jawaban dari pertanyaan no 1 anda bisa dapatkan di folder: 
-    number_one/query_answer
     
+    number_one/query_answer
+
 atau anda bisa lihat query nya seperti dibawah ini
     
     SELECT 
