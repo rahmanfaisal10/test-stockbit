@@ -1,0 +1,40 @@
+syntax="proto3";
+package proto;
+option go_package = "/pkg/proto";
+
+message Logger {
+    int64      ID        = 1;
+    string     Transport = 2;
+    string     Logging   = 3;
+    string     Level     = 4;
+    string     CreatedAt = 5;
+    string     UpdatedAt = 6;
+}
+
+message ListMovieRequest {
+    string Apikey = 1;
+    string SearchWord = 2;
+    string Pagination = 3;
+}
+
+message DetailMovieByIDRequest {
+    string Apikey = 1;
+    string ID     = 2;
+    string Plot   = 3; 
+}
+
+message ListMovieResponse {
+    bytes  Search       = 1;
+    string TotalResults = 2;
+    string Response     = 3; 
+}
+
+message DetailMoviesByIDResponse {
+    bytes Response = 1;
+}
+
+service Service {
+    rpc ListMovies(ListMovieRequest) returns (ListMovieResponse) {}
+    rpc DetailMoviesByID(DetailMovieByIDRequest) returns (DetailMoviesByIDResponse) {}
+}
+

@@ -15,12 +15,13 @@ var (
 )
 
 type Config struct {
-	DBUsername   string `envconfig:"DB_USERNAME"`
-	DBPassword   string `envconfig:"DB_PASSWORD"`
-	DBConnection string `envconfig:"DB_CONNECTION"`
-	DBHost       string `envconfig:"DB_HOST"`
-	DBPort       string `envconfig:"DB_PORT"`
-	DBName       string `envconfig:"DB_NAME"`
+	DBUsername     string `envconfig:"DB_USERNAME"`
+	DBPassword     string `envconfig:"DB_PASSWORD"`
+	DBConnection   string `envconfig:"DB_CONNECTION"`
+	DBHost         string `envconfig:"DB_HOST"`
+	DBPort         string `envconfig:"DB_PORT"`
+	DBName         string `envconfig:"DB_NAME"`
+	PortGRPCServer string `envconfig:"PORT_GRPC_SERVER"`
 
 	Port string `envconfig:"PORT"`
 

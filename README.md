@@ -19,7 +19,7 @@ atau anda bisa lihat query nya seperti dibawah ini:
 
 ### Answer Number Two
 
-Anda dapat menjalankan jawaban no 2 dengan
+Anda dapat menjalankan jawaban no 2 dengan:
 
 apabila anda hanya menjalankan transport http saja pakai:
 
@@ -53,3 +53,13 @@ atau anda juga bisa lihat methodnya seperti dibawah ini:
 
         return ""
     }
+
+## Answer Number Four
+
+Anda Dapat Menjalankan Jawaban no 4 dengan:
+
+    make start-four
+
+atau anda bisa lihat service yang bisa jalan di file:
+
+    Makefile

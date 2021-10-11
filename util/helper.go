@@ -2,6 +2,7 @@ package util
 
 import (
 	"encoding/json"
+	"fmt"
 	"io/ioutil"
 	"net/http"
 	"time"
@@ -48,4 +49,13 @@ func SendGetRequest(url string, result interface{}) error {
 	}
 
 	return nil
+}
+
+func GetBytes(key interface{}) ([]byte, error) {
+	buf, ok := key.([]byte)
+	if !ok {
+		return nil, fmt.Errorf("ooops, did not work")
+	}
+
+	return buf, nil
 }
