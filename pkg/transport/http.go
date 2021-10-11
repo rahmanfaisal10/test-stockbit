@@ -53,6 +53,15 @@ func MakeHandler(r *mux.Router) http.Handler {
 		opts...,
 	)
 
+	detailMovieByIdEndpoint := endpoint.DetailMoviesByID
+	detailMovieByHandler := kithttp.NewServer(
+		detailMovieByIdEndpoint,
+		decode.DecodeDetailMoviesByIDRequest,
+		util.EncodeResponseWithData,
+		opts...,
+	)
+
 	r.Handle("/omdbapi/list-movie", listMovieHandler).Methods("GET")
+	r.Handle("/omdbapi/detail-movie-by-id", detailMovieByHandler).Methods("GET")
 	return r
 }

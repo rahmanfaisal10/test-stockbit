@@ -22,4 +22,5 @@ func NewService(repo repository.Repository, log *logrus.Logger) service {
 
 type Service interface {
 	ListMovieService(ctx context.Context, request *model.ListMovieRequest) (*model.ListMovieResponse, error)
+	DetailMovieService(ctx context.Context, request *model.DetailMovieByIDRequest) (interface{}, error)
 }

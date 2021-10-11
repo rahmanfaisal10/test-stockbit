@@ -33,7 +33,7 @@ func init() {
 	flag.StringVar(&env, "env", "local", "server environment")
 	flag.Parse()
 
-	configFile = fmt.Sprintf("../../../config/%s.env", env)
+	configFile = fmt.Sprintf("./config/%s.env", env)
 }
 
 func Get() Config {

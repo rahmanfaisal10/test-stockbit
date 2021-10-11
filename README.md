@@ -17,6 +17,14 @@ atau anda bisa lihat query nya seperti dibawah ini:
     FROM `USER` u 
     LEFT JOIN `USER` u2 ON u.Parent = u2.ID;
 
+### Answer Number Two
+
+Anda dapat menjalankan jawaban no 2 dengan
+
+apabila anda hanya menjalankan transport http saja pakai:
+
+    make start-http
+
 ### Answer Number Three
 
 Jawaban dari pertanyaan no 3 anda bisa dapatkan di folder:
