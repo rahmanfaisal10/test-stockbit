@@ -25,9 +25,9 @@ apabila anda hanya menjalankan transport http saja pakai:
 
     make start-http
 
-endpoint http yang digunakan adalah:
-    http://localhost:8080/api/v1/omdbapi/detail-movie-by-id?i=tt4853102 // endpoint detail by id dengan id = tt4853102
-    http://localhost:8080/api/v1/omdbapi/list-movie?s=Batman&pages=1 // endpoint list movie dengan searchword Batman dan pagination 1
+    endpoint http yang digunakan adalah:
+        http://localhost:8080/api/v1/omdbapi/detail-movie-by-id?i=tt4853102 // endpoint detail by id dengan id = tt4853102
+        http://localhost:8080/api/v1/omdbapi/list-movie?s=Batman&pages=1 // endpoint list movie dengan searchword Batman dan pagination 1
 ### Answer Number Three
 
 Jawaban dari pertanyaan no 3 anda bisa dapatkan di folder:
